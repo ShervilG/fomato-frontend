@@ -1,0 +1,9 @@
+<div class="container">
+    <input class="search-box" type="text" [(ngModel)]="nameFilter">
+    <div *ngFor="let item of (itemList | itemFilter:nameFilter)">
+        <br>
+        <div class="item-style">
+            {{item.title}}
+        </div>
+    </div>
+</div>

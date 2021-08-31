@@ -1,0 +1,19 @@
+.search-box {
+    border-width: 2px;
+    border-color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+    width: 400px;
+    color: red;
+}
+
+.container {
+    text-align: center;
+    align-items: center;
+}
+
+.item-style {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}

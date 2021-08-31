@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Bat",
+        "quantity": 10
+    },
+    {
+        "name": "Ball",
+        "quantity": 20
+    },
+    {
+        "name": "Kneepad",
+        "quantity": 15
+    },
+    {
+        "name": "Kettle",
+        "quantity": 15
+    },
+    {
+        "name": "Baseball",
+        "quantity": 15
+    },
+    {
+        "name": "Cap",
+        "quantity": 15
+    }
+]
