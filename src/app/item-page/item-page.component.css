@@ -1,11 +1,19 @@
 .search-box {
     border-width: 2px;
     border-color: black;
+    border-radius: 10px;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     height: 25px;
     width: 400px;
-    color: red;
+    color: blue;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }
 
 .container {

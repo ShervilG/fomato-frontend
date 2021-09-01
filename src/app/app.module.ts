@@ -7,12 +7,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ItemPageComponent } from './item-page/item-page.component';
 import { ItemFilterPipe } from './pipes/item-filter.pipe';
+import { CssTestComponent } from './css-test/css-test.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ItemPageComponent,
-    ItemFilterPipe
+    ItemFilterPipe,
+    CssTestComponent
   ],
   imports: [
     BrowserModule,

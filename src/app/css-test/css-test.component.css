@@ -1,0 +1,55 @@
+.header-section {
+    background-color: red;
+    color: white;
+    font-family: 'Roboto';
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 7px 6px 3px 3px black;
+}
+
+.header-div {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-section {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto';
+    padding: 5px;
+}
+
+.header-nav {
+    vertical-align: bottom;
+    display: inline-block;
+    width: calc(100% - 500px);
+    text-align: right;
+}
+
+.header-nav_item {
+    display: inline-block;
+    margin: 0px 10px;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+
+.header-nav_item:hover {
+    color: greenyellow;
+}
+
+.header-nav_item:active {
+    color: greenyellow;
+}
+
+.header-section h1 {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.header-section h4 {
+    margin: 0;
+    margin-bottom: 20px;
+}
